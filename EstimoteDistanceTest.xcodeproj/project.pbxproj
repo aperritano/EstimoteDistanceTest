@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		708563AF18846CEE00120F5F /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 708563AE18846CEE00120F5F /* CoreBluetooth.framework */; };
+		708563B118846CF400120F5F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 708563B018846CF400120F5F /* CoreLocation.framework */; };
+		C0A7D0190BE42AFA944B9966 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A7DBEAD9BE4A622A696E78 /* Foundation.framework */; };
+		C0A7D069D1300382FF21AB4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0A7D43329C7B838E9EFC91E /* InfoPlist.strings */; };
+		C0A7D0F356E2D43B64A34552 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A7DB21B6CEA43091330D58 /* UIKit.framework */; };
+		C0A7D1AAA79723F7B31A01AF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A7DEF41D9B24E8CF12ED8D /* XCTest.framework */; };
+		C0A7D1D1B474DCA8E380C33A /* EstimoteDistanceTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7D74B0DD86E8F361CBE0C /* EstimoteDistanceTestTests.m */; };
+		C0A7D2D40B11CE8B9126BC30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7D9AD4B0B737F5C6AEE36 /* main.m */; };
+		C0A7D5157CB0DCCDC9D899BA /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A7D95CC71B795F9DEC71F3 /* Main_iPad.storyboard */; };
+		C0A7D5A8E9B0F7185E739F00 /* ESTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7D560A02BA7598CB3F7BD /* ESTViewController.m */; };
+		C0A7D6F1DC0C4E54286F0FC4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A7D107B1528802A8E02F03 /* Images.xcassets */; };
+		C0A7D70CF402C3EFD02CC1FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A7DBEAD9BE4A622A696E78 /* Foundation.framework */; };
+		C0A7D767ACE136A951928D5B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A7DB21B6CEA43091330D58 /* UIKit.framework */; };
+		C0A7D8B4B87FC0B2D2595DEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7D43C486479FE1EEA0D0D /* ViewController.m */; };
+		C0A7D924B0CC63523C4A559A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A7DC8ADD71BDD90C1DBC11 /* CoreGraphics.framework */; };
+		C0A7D9BC5E4587E2A9B9D674 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A7D5E22B81506B11BB28E3 /* Main_iPhone.storyboard */; };
+		C0A7DE639571F0C5BDB406FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7D8918515036C1107EBFB /* AppDelegate.m */; };
+		C0A7DFFBCCD0E2CE51DD62C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0A7D45D09E21C169B1B3D60 /* InfoPlist.strings */; };
+		F359A9412BE949C3A6D4A6B2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E73E5874C40740ABB91EC482 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0A7D35F9F4A7B5AF63D8332 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0A7D3544222941CF1679D59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0A7DBC22F98E81636D6F9F8;
+			remoteInfo = EstimoteDistanceTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		708563AE18846CEE00120F5F /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		708563B018846CF400120F5F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C0A7D0C25C6ED67642E4F12A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C0A7D107B1528802A8E02F03 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C0A7D14670884687890A8F93 /* ESTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESTViewController.h; sourceTree = "<group>"; };
+		C0A7D1771C2D3296DC1981AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		C0A7D43C486479FE1EEA0D0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C0A7D54E4132252E4B614F6E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0A7D560A02BA7598CB3F7BD /* ESTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESTViewController.m; sourceTree = "<group>"; };
+		C0A7D57939B97FB3B7626C65 /* EstimoteDistanceTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EstimoteDistanceTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A7D585500E9DFF2973563C /* EstimoteDistanceTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EstimoteDistanceTest-Prefix.pch"; sourceTree = "<group>"; };
+		C0A7D59E1BD8CF5309211B94 /* EstimoteDistanceTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "EstimoteDistanceTest-Info.plist"; sourceTree = "<group>"; };
+		C0A7D5E67625B06A0DE52C44 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C0A7D74B0DD86E8F361CBE0C /* EstimoteDistanceTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EstimoteDistanceTestTests.m; sourceTree = "<group>"; };
+		C0A7D8918515036C1107EBFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C0A7D8D0DFF3A4C353F4E731 /* EstimoteDistanceTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "EstimoteDistanceTestTests-Info.plist"; sourceTree = "<group>"; };
+		C0A7D8DD87AC8612C570C3DF /* EstimoteDistanceTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EstimoteDistanceTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A7D94279B6F2C8D972F7CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		C0A7D9AD4B0B737F5C6AEE36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0A7DB21B6CEA43091330D58 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C0A7DBEAD9BE4A622A696E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C0A7DC8ADD71BDD90C1DBC11 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C0A7DECE8E8777E8664C1E2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0A7DEF41D9B24E8CF12ED8D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CC013CACFB9A4CDCB71579A4 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		E73E5874C40740ABB91EC482 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0A7DB9D88B02C8BB5EEA6C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708563B118846CF400120F5F /* CoreLocation.framework in Frameworks */,
+				708563AF18846CEE00120F5F /* CoreBluetooth.framework in Frameworks */,
+				C0A7D70CF402C3EFD02CC1FD /* Foundation.framework in Frameworks */,
+				C0A7D924B0CC63523C4A559A /* CoreGraphics.framework in Frameworks */,
+				C0A7D767ACE136A951928D5B /* UIKit.framework in Frameworks */,
+				F359A9412BE949C3A6D4A6B2 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A7DBD086FCAB2267A6F77C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A7D1AAA79723F7B31A01AF /* XCTest.framework in Frameworks */,
+				C0A7D0190BE42AFA944B9966 /* Foundation.framework in Frameworks */,
+				C0A7D0F356E2D43B64A34552 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0A7D2DE7AE1B5B8B641DAE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0A7D8D0DFF3A4C353F4E731 /* EstimoteDistanceTestTests-Info.plist */,
+				C0A7D45D09E21C169B1B3D60 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0A7D2E199623BABCCBF4D22 /* EstimoteDistanceTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0A7D2DE7AE1B5B8B641DAE3 /* Supporting Files */,
+				C0A7D74B0DD86E8F361CBE0C /* EstimoteDistanceTestTests.m */,
+			);
+			path = EstimoteDistanceTestTests;
+			sourceTree = "<group>";
+		};
+		C0A7D476293DBA5F5362FC7C /* EstimoteDistanceTest */ = {
+			isa = PBXGroup;
+			children = (
+				C0A7DB69CDC07797A6C9AC5E /* Supporting Files */,
+				C0A7D5E67625B06A0DE52C44 /* AppDelegate.h */,
+				C0A7D8918515036C1107EBFB /* AppDelegate.m */,
+				C0A7D107B1528802A8E02F03 /* Images.xcassets */,
+				C0A7D5E22B81506B11BB28E3 /* Main_iPhone.storyboard */,
+				C0A7D95CC71B795F9DEC71F3 /* Main_iPad.storyboard */,
+				C0A7D0C25C6ED67642E4F12A /* ViewController.h */,
+				C0A7D43C486479FE1EEA0D0D /* ViewController.m */,
+				C0A7D560A02BA7598CB3F7BD /* ESTViewController.m */,
+				C0A7D14670884687890A8F93 /* ESTViewController.h */,
+			);
+			path = EstimoteDistanceTest;
+			sourceTree = "<group>";
+		};
+		C0A7D621F65B64E29A7665C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				708563B018846CF400120F5F /* CoreLocation.framework */,
+				708563AE18846CEE00120F5F /* CoreBluetooth.framework */,
+				C0A7DBEAD9BE4A622A696E78 /* Foundation.framework */,
+				C0A7DC8ADD71BDD90C1DBC11 /* CoreGraphics.framework */,
+				C0A7DB21B6CEA43091330D58 /* UIKit.framework */,
+				C0A7DEF41D9B24E8CF12ED8D /* XCTest.framework */,
+				E73E5874C40740ABB91EC482 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0A7DB69CDC07797A6C9AC5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0A7D59E1BD8CF5309211B94 /* EstimoteDistanceTest-Info.plist */,
+				C0A7D43329C7B838E9EFC91E /* InfoPlist.strings */,
+				C0A7D9AD4B0B737F5C6AEE36 /* main.m */,
+				C0A7D585500E9DFF2973563C /* EstimoteDistanceTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0A7DB7461FE0E5F9F6000D6 = {
+			isa = PBXGroup;
+			children = (
+				C0A7DCD032993FC1E097C441 /* Products */,
+				C0A7D621F65B64E29A7665C8 /* Frameworks */,
+				C0A7D476293DBA5F5362FC7C /* EstimoteDistanceTest */,
+				C0A7D2E199623BABCCBF4D22 /* EstimoteDistanceTestTests */,
+				CC013CACFB9A4CDCB71579A4 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		C0A7DCD032993FC1E097C441 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0A7D57939B97FB3B7626C65 /* EstimoteDistanceTest.app */,
+				C0A7D8DD87AC8612C570C3DF /* EstimoteDistanceTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0A7D4B75D4721CF0D11F572 /* EstimoteDistanceTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0A7D3595C6CF0D8815B7734 /* Build configuration list for PBXNativeTarget "EstimoteDistanceTestTests" */;
+			buildPhases = (
+				C0A7DE287228649196F6C1FD /* Sources */,
+				C0A7DBD086FCAB2267A6F77C /* Frameworks */,
+				C0A7D51FCD2FE8BA7CF0E2CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0A7DE085FE94EAD014F1A32 /* PBXTargetDependency */,
+			);
+			name = EstimoteDistanceTestTests;
+			productName = EstimoteDistanceTestTests;
+			productReference = C0A7D8DD87AC8612C570C3DF /* EstimoteDistanceTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0A7DBC22F98E81636D6F9F8 /* EstimoteDistanceTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0A7D85AF7372ED4A9CA2C7D /* Build configuration list for PBXNativeTarget "EstimoteDistanceTest" */;
+			buildPhases = (
+				A3E85F2C8473442A819689FA /* Check Pods Manifest.lock */,
+				C0A7D406AC5F2808CFF005D8 /* Sources */,
+				C0A7DB9D88B02C8BB5EEA6C9 /* Frameworks */,
+				C0A7D669F6AFA425B8C14CCF /* Resources */,
+				8BCE315D12A947CA951CF7E7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EstimoteDistanceTest;
+			productName = EstimoteDistanceTest;
+			productReference = C0A7D57939B97FB3B7626C65 /* EstimoteDistanceTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0A7D3544222941CF1679D59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Anthony Perritano";
+			};
+			buildConfigurationList = C0A7D3BC9DD7950157684CD0 /* Build configuration list for PBXProject "EstimoteDistanceTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C0A7DB7461FE0E5F9F6000D6;
+			productRefGroup = C0A7DCD032993FC1E097C441 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0A7DBC22F98E81636D6F9F8 /* EstimoteDistanceTest */,
+				C0A7D4B75D4721CF0D11F572 /* EstimoteDistanceTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0A7D51FCD2FE8BA7CF0E2CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A7DFFBCCD0E2CE51DD62C4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A7D669F6AFA425B8C14CCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A7D069D1300382FF21AB4B /* InfoPlist.strings in Resources */,
+				C0A7D6F1DC0C4E54286F0FC4 /* Images.xcassets in Resources */,
+				C0A7D9BC5E4587E2A9B9D674 /* Main_iPhone.storyboard in Resources */,
+				C0A7D5157CB0DCCDC9D899BA /* Main_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BCE315D12A947CA951CF7E7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3E85F2C8473442A819689FA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0A7D406AC5F2808CFF005D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A7D2D40B11CE8B9126BC30 /* main.m in Sources */,
+				C0A7DE639571F0C5BDB406FA /* AppDelegate.m in Sources */,
+				C0A7D8B4B87FC0B2D2595DEB /* ViewController.m in Sources */,
+				C0A7D5A8E9B0F7185E739F00 /* ESTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A7DE287228649196F6C1FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A7D1D1B474DCA8E380C33A /* EstimoteDistanceTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0A7DE085FE94EAD014F1A32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0A7DBC22F98E81636D6F9F8 /* EstimoteDistanceTest */;
+			targetProxy = C0A7D35F9F4A7B5AF63D8332 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0A7D43329C7B838E9EFC91E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0A7DECE8E8777E8664C1E2D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C0A7D45D09E21C169B1B3D60 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0A7D54E4132252E4B614F6E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C0A7D5E22B81506B11BB28E3 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0A7D1771C2D3296DC1981AB /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C0A7D95CC71B795F9DEC71F3 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0A7D94279B6F2C8D972F7CC /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0A7D0E11D69936563B041DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EstimoteDistanceTest/EstimoteDistanceTest-Prefix.pch";
+				INFOPLIST_FILE = "EstimoteDistanceTestTests/EstimoteDistanceTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C0A7D732F46061FC820DBCE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC013CACFB9A4CDCB71579A4 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EstimoteDistanceTest/EstimoteDistanceTest-Prefix.pch";
+				INFOPLIST_FILE = "EstimoteDistanceTest/EstimoteDistanceTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C0A7D95EF98261A1A90773DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0A7DA51B1FE648C3BD55195 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0A7DD2B87BC691CC6CF50D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC013CACFB9A4CDCB71579A4 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EstimoteDistanceTest/EstimoteDistanceTest-Prefix.pch";
+				INFOPLIST_FILE = "EstimoteDistanceTest/EstimoteDistanceTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C0A7DEBE68F2EBD98FCF7FA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EstimoteDistanceTest/EstimoteDistanceTest-Prefix.pch";
+				INFOPLIST_FILE = "EstimoteDistanceTestTests/EstimoteDistanceTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0A7D3595C6CF0D8815B7734 /* Build configuration list for PBXNativeTarget "EstimoteDistanceTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A7DEBE68F2EBD98FCF7FA3 /* Release */,
+				C0A7D0E11D69936563B041DD /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0A7D3BC9DD7950157684CD0 /* Build configuration list for PBXProject "EstimoteDistanceTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A7DA51B1FE648C3BD55195 /* Release */,
+				C0A7D95EF98261A1A90773DD /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0A7D85AF7372ED4A9CA2C7D /* Build configuration list for PBXNativeTarget "EstimoteDistanceTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A7DD2B87BC691CC6CF50D0 /* Release */,
+				C0A7D732F46061FC820DBCE7 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0A7D3544222941CF1679D59 /* Project object */;
+}
